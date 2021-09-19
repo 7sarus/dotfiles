@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
-
 <!-- This file contains all supported config elements and attributes -->
-
 <labwc_config>
 
   <core>
@@ -10,12 +8,12 @@
   </core>
 
   <theme>
-    <name></name>
-    <cornerRadius>8</cornerRadius>
+    <name>Raven-Cyan</name>
+    <cornerRadius>6</cornerRadius>
 
     <!-- Font can be defined without attributues to set all places the same -->
-    <font place="ActiveWindow"><name>sans</name><size>10</size></font>
-    <font place="MenuItem"><name>sans</name><size>10</size></font>
+    <font place="ActiveWindow"><name>Barlow Condensed</name><size>12</size></font>
+    <font place="MenuItem"><name>Barlow Condensed</name><size>14</size></font>
   </theme>
 
   <focus>
@@ -40,10 +38,10 @@
     -->
 
     <keybind key="A-Escape">
-      <action name="Exit" />
+      <action name="Exit"/>
     </keybind>
     <keybind key="A-Tab">
-      <action name="NextWindow" />
+      <action name="NextWindow"/>
     </keybind>
     <keybind key="W-Return">
       <action name="Execute"><command>alacritty</command></action>
@@ -52,10 +50,10 @@
       <action name="Execute"><command>bemenu-run</command></action>
     </keybind>
     <keybind key="A-F4">
-      <action name="Close" />
+      <action name="Close"/>
     </keybind>
     <keybind key="W-a">
-      <action name="ToggleMaximize" />
+      <action name="ToggleMaximize"/>
     </keybind>
     <keybind key="A-Left">
       <action name="MoveToEdge"><direction>left</direction></action>
