@@ -1,1 +1,2 @@
-#tint2&
+#uses swaybg to set a wallpaper 
+swaybg -o "*" -i  "Downloads/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-1366x768-1455.jpg" -m "fill"&
