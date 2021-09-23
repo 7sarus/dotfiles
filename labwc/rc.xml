@@ -47,7 +47,7 @@
       <action name="Close"/>
     </keybind>
      <!--i3vm close keybind-->
-    <keybind key="C-S-q">
+    <keybind key="W-S-q">
       <action name="Close"/>
     </keybind>
     <keybind key="W-a">
