@@ -36,18 +36,12 @@
       The element <default /> to load the default keybind and thus avoid
       repeating all the definitions below.
     -->
-
+    <!-- Window Actions-->
     <keybind key="A-Escape">
       <action name="Exit"/>
     </keybind>
     <keybind key="A-Tab">
       <action name="NextWindow"/>
-    </keybind>
-    <keybind key="W-Return">
-      <action name="Execute"><command>kitty</command></action>
-    </keybind>
-    <keybind key="A-F3">
-      <action name="Execute"><command>wofi --show run</command></action>
     </keybind>
     <keybind key="A-F4">
       <action name="Close"/>
@@ -56,7 +50,7 @@
       <action name="ToggleMaximize"/>
     <keybind key="W-f">
       <action name="ToggleFullscreen"/>
-  </keybind>
+    </keybind>
     </keybind>
     <keybind key="A-Left">
       <action name="MoveToEdge"><direction>left</direction></action>
@@ -70,8 +64,14 @@
     <keybind key="A-Down">
       <action name="MoveToEdge"><direction>down</direction></action>
     </keybind>
+    <!-- Application Shortcuts-->
+    <keybind key="W-Return">
+      <action name="Execute"><command>kitty</command></action>
+    </keybind>
+    <keybind key="A-F3">
+      <action name="Execute"><command>wofi --show run</command></action>
+    </keybind>
   </keyboard>
-
 
   <mouse>
     <!-- time is in ms -->
