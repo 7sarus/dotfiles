@@ -37,13 +37,17 @@
       repeating all the definitions below.
     -->
     <!-- Window Actions-->
-    <keybind key="A-Escape">
+    <keybind key="W-S-Escape">
       <action name="Exit"/>
     </keybind>
     <keybind key="A-Tab">
       <action name="NextWindow"/>
     </keybind>
     <keybind key="A-F4">
+      <action name="Close"/>
+    </keybind>
+     <!--i3vm close keybind-->
+    <keybind key="C-S-q">
       <action name="Close"/>
     </keybind>
     <keybind key="W-a">
@@ -64,10 +68,12 @@
     <keybind key="A-Down">
       <action name="MoveToEdge"><direction>down</direction></action>
     </keybind>
-    <!-- Application Shortcuts-->
-    <keybind key="W-Return">
+    <!--Application Shortcuts-->
+    <!--Kitty-->
+ <keybind key="W-Return">
       <action name="Execute"><command>kitty</command></action>
     </keybind>
+    <!--Wofi-->
     <keybind key="A-F3">
       <action name="Execute"><command>wofi --show run</command></action>
     </keybind>
