@@ -325,9 +325,11 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute"><command>firefox</command></action>
-  </keyboard>
+    </keybind>
     <keybind key="W-f">
       <action name="Execute"><command>nemo</command></action>
+    </keybind>
+  </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
     <!-- number of pixels the mouse must move before a drag begins -->
