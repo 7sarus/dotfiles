@@ -74,7 +74,7 @@
       <action name="Execute"><command>kitty</command></action>
     </keybind>
     <!--Wofi-->
-    <keybind key="A-F3">
+    <keybind key="W-space">
       <action name="Execute"><command>wofi --show run</command></action>
     </keybind>
   </keyboard>
