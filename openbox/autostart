@@ -3,4 +3,4 @@
 #
 #
 tint2&
-nitrogen &
+feh --bg-max --randomize ~/.wallpaper/* &&
