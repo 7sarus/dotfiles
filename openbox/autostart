@@ -1,5 +1,6 @@
 #
-# autostart scropt for openbox
+# autostart script for openbox
 #
-#xfce-mcs-manager &
+#
 tint2&
+nitrogen &
