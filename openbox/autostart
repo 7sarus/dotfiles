@@ -6,3 +6,4 @@ tint2&
 feh --bg-max --randomize ~/.wallpaper/* &
 nm-applet &
 xfce4-power-manager &
+redshift-gtk &
