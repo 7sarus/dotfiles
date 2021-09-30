@@ -3,4 +3,5 @@
 #
 #
 tint2&
-feh --bg-max --randomize ~/.wallpaper/* &&
+feh --bg-max --randomize ~/.wallpaper/* &
+
