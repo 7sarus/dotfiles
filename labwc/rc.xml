@@ -8,8 +8,8 @@
   </core>
 
   <theme>
-    <name>Raven-Cyan</name>
-    <cornerRadius>6</cornerRadius>
+    <name>Ayu Red</name>
+    <cornerRadius>10</cornerRadius>
 
     <!-- Font can be defined without attributues to set all places the same -->
     <font place="ActiveWindow"><name>Barlow Condensed</name><size>12</size></font>
