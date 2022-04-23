@@ -1,3 +1,4 @@
 #uses swaybg to set a wallpaper 
-swaybg -o "*" -i  "Downloads/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-1366x768-1455.jpg" -m "fill"&
+swaybg -o "*" -i  "/home/arkangel/.wallpaper/1193446.jpg" -m "fill"&
 redshift -m drm -PO 3500 &
+waybar &

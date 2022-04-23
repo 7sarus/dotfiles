@@ -2,13 +2,13 @@
 # autostart script for openbox
 #
 #
-tint2&
-feh --bg-max --randomize ~/.wallpaper/* &
-nm-applet &
+ tint2 -c /home/arkangel/.config/tint2/modern.tint2rc &
+feh --bg-fill --randomize /home/arkangel/.cache/QuickWall&
+sleep 3s&&nm-applet &
 xfce4-power-manager &
 redshift-gtk &
 pa-applet &
 blueman-applet &
-picom &&
+(sleep 3s && picom --experimental-backends &) 
 ##
-#################3
+#################

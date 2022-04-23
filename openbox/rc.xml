@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Triste-Froly</name>
+    <name>Nordic-Openbox-master</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -120,7 +120,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>1</number>
     <firstdesk>1</firstdesk>
     <names>
       <!-- set names up here if you want to, like this:
@@ -153,10 +153,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>0</top>
-    <bottom>0</bottom>
-    <left>0</left>
-    <right>0</right>
+    <top>10</top>
+    <bottom>10</bottom>
+    <left>68</left>
+    <right>10</right>
   </margins>
   <dock>
     <position>TopLeft</position>
@@ -318,22 +318,32 @@
         <direction>down</direction>
       </action>
     </keybind>
-<!--Application Shortcuts-->
+    <!--Application Shortcuts-->
     <!--Kitty-->
     <keybind key="W-Return">
-      <action name="Execute"><command>kitty</command></action>
+      <action name="Execute">
+        <command>kitty</command>
+      </action>
     </keybind>
     <keybind key="W-w">
-      <action name="Execute"><command>firefox</command></action>
+      <action name="Execute">
+        <command>firefox</command>
+      </action>
     </keybind>
     <keybind key="W-C-f">
-      <action name="Execute"><command>nemo</command></action>
+      <action name="Execute">
+        <command>nemo</command>
+      </action>
     </keybind>
     <keybind key="W-space">
-      <action name="Execute"><command>.config/rofi/launchers/colorful/launcher.sh style_2.rasi</command></action>
+      <action name="Execute">
+        <command>.config/rofi/launchers/colorful/launcher.sh style_2.rasi</command>
+      </action>
     </keybind>
     <keybind key="W-C-t">
-      <action name="Execute"><command>tin</command></action>
+      <action name="Execute">
+        <command>tin</command>
+      </action>
     </keybind>
   </keyboard>
   <mouse>
