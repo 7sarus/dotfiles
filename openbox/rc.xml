@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Nordic-Openbox-master</name>
+    <name>Ayu</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -343,6 +343,17 @@
     <keybind key="W-C-t">
       <action name="Execute">
         <command>tin</command>
+      </action>
+    </keybind>
+    <!-- Take a screenshot, say "Cheeeese!" -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>screeny</command>
+      </action>
+    </keybind>
+    <keybind key="C-Print">
+      <action name="Execute">
+        <command>screeny -s</command>
       </action>
     </keybind>
   </keyboard>
