@@ -79,7 +79,7 @@
     </keybind>
     <!--Rofi-wayland-->
     <keybind key="W-space">
-      <action name="Execute"><command>config/rofi/launchers/colorful/launcher.sh style_2.rasi</command></action>
+      <action name="Execute"><command>.config/rofi/launchers/colorful/launcher.sh style_2.rasi</command></action>
     </keybind>
   </keyboard>
  <!--
